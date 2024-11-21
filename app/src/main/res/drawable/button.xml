@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Warna tombol aktif -->
+    <item android:state_activated="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/active_button" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <!-- Warna tombol saat ditekan -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/pressed_button" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+    <!-- Warna default tombol -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/button" />
+            <corners android:radius="10dp" />
+        </shape>
+    </item>
+</selector>
